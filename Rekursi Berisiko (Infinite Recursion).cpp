@@ -6,7 +6,7 @@ void contohRekursiBerisiko(int n) {
 	if (n == 0) {
 		cout << "Selesai" << endl;
 	} else
-		contohRekursiBerisiko(n - 3 );
+		contohRekursiBerisiko(n - 2 );
 }
 int main() {
 	int n = 20;
@@ -14,4 +14,5 @@ int main() {
 	contohRekursiBerisiko(n);
 	return 0;
 }
+
 
