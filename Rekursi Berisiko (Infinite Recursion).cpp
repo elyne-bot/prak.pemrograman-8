@@ -9,11 +9,12 @@ void contohRekursiBerisiko(int n) {
 		contohRekursiBerisiko(n - 2 );
 }
 int main() {
-	int n = 10;
+	int n = 20;
 	cout << "Memulai rekursi :" << endl;
 	contohRekursiBerisiko(n);
 	return 0;
 }
+
 
 
 
